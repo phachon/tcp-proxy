@@ -57,7 +57,7 @@ func initFlag()  {
 	}
 }
 
-func main()  {
+func main() {
 
 	listen, err := net.Listen("tcp", *local)
 	if err != nil {
